@@ -8,5 +8,14 @@
   "hotOffers": "العروض الساخنة",
   "accountCreated": "تم إنشاء الحساب بنجاح",
   "accountSignedIn": "تم تسجيل الدخول بنجاح",
-  "close": "إغلاق"
+  "close": "إغلاق",
+  "fullName": "الاسم الكامل",
+  "email": "البريد الإلكتروني",
+  "password": "كلمة المرور",
+  "confirmPassword": "تأكيد كلمة المرور",
+  "invalidEmail": "البريد الإلكتروني غير صالح",
+  "passwordTooShort": "كلمة المرور يجب أن تكون 6 أحرف على الأقل",
+  "passwordsNotMatch": "كلمتا المرور غير متطابقتين",
+  "nameValidation": "أول حرف من الاسم يجب أن يكون كبيرًا",
+  "enterName": "أدخل اسمك"
 }

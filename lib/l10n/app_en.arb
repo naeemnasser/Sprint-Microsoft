@@ -8,5 +8,14 @@
   "hotOffers": "Hot Offers",
   "accountCreated": "Account created successfully",
   "accountSignedIn": "Account sign-in successfully",
-  "close": "Close"
+  "close": "Close",
+  "fullName": "Full Name",
+  "email": "Email",
+  "password": "Password",
+  "confirmPassword": "Confirm Password",
+  "invalidEmail": "Invalid email",
+  "passwordTooShort": "Password must be at least 6 characters",
+  "passwordsNotMatch": "Passwords do not match",
+  "nameValidation": "First letter must be uppercase",
+  "enterName": "Enter your name"
 }

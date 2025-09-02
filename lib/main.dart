@@ -1,10 +1,25 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:provider/provider.dart';
 import 'package:shopping_app/l10n/app_localizations.dart';
 import 'package:shopping_app/pages/welcome_screen.dart';
+import 'package:shopping_app/pages/home_screen.dart';
+import 'package:shopping_app/pages/signin_screen.dart';
+import 'package:shopping_app/pages/signup_screen.dart';
+import 'package:shopping_app/providers/locale_provider.dart';
 
-void main() {
-  runApp(const ShoppingApp());
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  final localeProvider = LocaleProvider();
+  await localeProvider.initialize();
+
+  runApp(
+    ChangeNotifierProvider.value(
+      value: localeProvider,
+      child: const ShoppingApp(),
+    ),
+  );
 }
 
 class ShoppingApp extends StatelessWidget {
@@ -12,16 +27,34 @@ class ShoppingApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final localeProvider = Provider.of<LocaleProvider>(context);
+
     return MaterialApp(
+      locale: localeProvider.locale,
+      localeResolutionCallback: (locale, supportedLocales) {
+        // If locale  not supported, use first supported locale
+        if (locale == null) return supportedLocales.first;
+
+        for (var supportedLocale in supportedLocales) {
+          if (supportedLocale.languageCode == locale.languageCode) {
+            return supportedLocale;
+          }
+        }
+
+        return supportedLocales.first;
+      },
       debugShowCheckedModeBanner: false,
       title: 'Shopping App',
-      localizationsDelegates: [
+      localizationsDelegates: const [
         AppLocalizations.delegate,
         GlobalMaterialLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate,
         GlobalCupertinoLocalizations.delegate,
       ],
-      supportedLocales: const [Locale('en'), Locale('ar')],
+      supportedLocales: const [
+        Locale('en'),
+        Locale('ar'),
+      ],
       theme: ThemeData(
         primarySwatch: Colors.blue,
         scaffoldBackgroundColor: Colors.grey[100],
@@ -47,8 +80,13 @@ class ShoppingApp extends StatelessWidget {
           fillColor: Colors.white,
         ),
       ),
-
-      home: const WelcomeScreen(),
+      initialRoute: '/',
+      routes: {
+        '/': (context) => const WelcomeScreen(),
+        '/home': (context) => const HomeScreen(),
+        '/signin': (context) => const SignInScreen(),
+        '/signup': (context) => const SignUpScreen(),
+      },
     );
   }
 }

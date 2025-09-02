@@ -17,5 +17,6 @@
   "passwordTooShort": "Password must be at least 6 characters",
   "passwordsNotMatch": "Passwords do not match",
   "nameValidation": "First letter must be uppercase",
-  "enterName": "Enter your name"
+  "enterName": "Enter your name",
+  "dontHaveAccount": "Don't have an account?"
 }

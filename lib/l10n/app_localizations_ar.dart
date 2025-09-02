@@ -34,4 +34,34 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get close => 'إغلاق';
+
+  @override
+  String get fullName => 'الاسم الكامل';
+
+  @override
+  String get email => 'البريد الإلكتروني';
+
+  @override
+  String get password => 'كلمة المرور';
+
+  @override
+  String get confirmPassword => 'تأكيد كلمة المرور';
+
+  @override
+  String get invalidEmail => 'البريد الإلكتروني غير صالح';
+
+  @override
+  String get passwordTooShort => 'كلمة المرور يجب أن تكون 6 أحرف على الأقل';
+
+  @override
+  String get passwordsNotMatch => 'كلمتا المرور غير متطابقتين';
+
+  @override
+  String get nameValidation => 'أول حرف من الاسم يجب أن يكون كبيرًا';
+
+  @override
+  String get enterName => 'أدخل اسمك';
+
+  @override
+  String get dontHaveAccount => 'ليس لديك حساب؟';
 }

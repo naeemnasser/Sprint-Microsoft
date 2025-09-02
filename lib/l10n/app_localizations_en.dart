@@ -34,4 +34,34 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get close => 'Close';
+
+  @override
+  String get fullName => 'Full Name';
+
+  @override
+  String get email => 'Email';
+
+  @override
+  String get password => 'Password';
+
+  @override
+  String get confirmPassword => 'Confirm Password';
+
+  @override
+  String get invalidEmail => 'Invalid email';
+
+  @override
+  String get passwordTooShort => 'Password must be at least 6 characters';
+
+  @override
+  String get passwordsNotMatch => 'Passwords do not match';
+
+  @override
+  String get nameValidation => 'First letter must be uppercase';
+
+  @override
+  String get enterName => 'Enter your name';
+
+  @override
+  String get dontHaveAccount => 'Don\'t have an account?';
 }

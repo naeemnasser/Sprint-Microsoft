@@ -17,5 +17,6 @@
   "passwordTooShort": "كلمة المرور يجب أن تكون 6 أحرف على الأقل",
   "passwordsNotMatch": "كلمتا المرور غير متطابقتين",
   "nameValidation": "أول حرف من الاسم يجب أن يكون كبيرًا",
-  "enterName": "أدخل اسمك"
+  "enterName": "أدخل اسمك",
+  "dontHaveAccount": "ليس لديك حساب؟"
 }

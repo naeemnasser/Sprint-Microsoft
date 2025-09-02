@@ -91,13 +91,36 @@ Run the app:
 flutter run
 
 Screenshots
-Welcome Screen	Sign Up	Sign In
+English version
+  welcome screen
+<img src="assets\images\screanshoten\welcomeScreen.png" width="300">
+  signup screen
+<img src="assets\images\screanshoten\signup.png" width="300">
+  sign in screen
+<img src="assets\images\screanshoten\signin.png" width="300">
+check validation for signup
+<img src="assets\images\screanshoten\signuperror.png" width="300">
+fill data in signup
+<img src="assets\images\screanshoten\signupUpWithData.png" width="300">
+mwssage when signed Up
+<img src="assets\images\screanshoten\signedUP.png" width="300">
+our product with gridview
+<img src="assets\images\screanshoten\OurProduct.png" width="300">
+product details page
+<img src="assets\images\screanshoten\productDetails.png" width="300">
 
-	
-	
-Home Screen	Hot Offers	Arabic Version
 
-	
+Screens Offers	Arabic Version
+  welcome screen
+  <img src="assets\images\screenshotar\ARwelcome.png" width="300">
+  signed in screen
+  <img src="assets\images\screenshotar\ARsignedin.png" width="300">
+  sign in screen
+  <img src="assets\images\screenshotar\ArsignIn.png" width="300">
+  signup screen
+  <img src="assets\images\screenshotar\ARsignup.png" width="300">
+  our product screen
+  <img src="assets\images\screenshotar\ARourproduct.png" width="300">
 	
 Project Structure
 lib/

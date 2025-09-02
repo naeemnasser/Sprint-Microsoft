@@ -1,128 +1,94 @@
-Flutter Shopping App
-Project Overview
+# 🛍️ Flutter Shopping App  
 
-This project is a Flutter-based shopping application. It includes a welcome screen, user authentication (sign up and sign in), smooth transitions, and a home screen that displays products and offers. The app also demonstrates localization support.
+A complete **shopping application** built with Flutter.  
+The app features authentication, smooth transitions, localization, and product management.  
 
-Objectives
+---
 
-Build a complete shopping app using Flutter.
+## 📖 Project Overview  
+This project demonstrates a shopping app with:  
+- **Welcome Screen** with animations and buttons.  
+- **User Authentication** (Sign Up & Sign In).  
+- **Smooth transitions** between screens.  
+- **Home Screen** with products, grid view, and offers.  
+- **Localization**: English 🇬🇧 & Arabic 🇪🇬.  
 
-Apply core Dart concepts (variables, functions, OOP).
+---
 
-Use stateless and stateful widgets.
+## 🎯 Objectives  
+✔ Build a full Flutter shopping app.  
+✔ Apply core Dart concepts: variables, functions, OOP.  
+✔ Use **Stateless** and **Stateful** widgets.  
+✔ Implement **form validation**, **navigation**, and **animations**.  
+✔ Add **localization support** (English & Arabic).  
 
-Implement form validation, navigation, and animations.
+---
 
-Add localization support.
+## 🛠 Tools & Technologies  
+![Flutter](https://img.shields.io/badge/Flutter-3.0-blue?logo=flutter)  
+![Dart](https://img.shields.io/badge/Dart-Language-blue?logo=dart)  
+![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)  
+![Android Studio](https://img.shields.io/badge/IDE-AndroidStudio-green?logo=androidstudio)  
+![VS Code](https://img.shields.io/badge/IDE-VSCode-blue?logo=visualstudiocode)  
 
-Publish the code on GitHub with README and screenshots.
+---
 
-Tools
+## ✅ Requirements Implemented  
 
-Flutter SDK
+### 🔹 Welcome Screen  
+- AppBar with title  
+- Local & online images  
+- Custom font text  
+- Buttons: **Sign Up / Sign In**
 
-Dart
+### 🔹 Authentication  
+- Sign Up form (Full name, Email, Password, Confirm Password)  
+- Validation for each field  
+- Success dialog: *Account created successfully*  
+- Sign In form (Email + Password)  
+- Success dialog: *Account sign-in successfully*  
 
-Visual Studio Code / Android Studio
+### 🔹 Transitions  
+- Smooth **fade animation** between pages  
 
-GitHub
+### 🔹 Shopping Home Screen  
+- AppBar with title **Our Products**  
+- Horizontal **PageView** for featured products  
+- **GridView** with product cards (2 per row)  
+- Product card: Image, Title, Add-to-Cart button (Snackbar)  
+- **Hot Offers** with `ListView.builder`  
 
-Flutter Intl for localization
+### 🔹 Localization (Bonus)  
+- Multilingual app (English & Arabic) using `.arb` files  
 
-Requirements Implemented
+---
 
-Welcome Screen
+## ▶️ How to Run  
 
-AppBar with title.
-
-Two images (local and online).
-
-Text with custom font.
-
-Buttons for Sign Up and Sign In.
-
-Sign Up / Sign In
-
-Sign Up form (full name, email, password, confirm password).
-
-Validation for each field.
-
-Dialog on success: "Account created successfully".
-
-Sign In form (email and password).
-
-Dialog on success: "Account sign-in successfully".
-
-Transitions
-
-Fade animation between pages.
-
-Shopping Home Screen
-
-AppBar with title "Our Products".
-
-Horizontal PageView for featured products.
-
-GridView with product cards (2 per row).
-
-Each card has image, title, and add-to-cart button (shows Snackbar).
-
-"Hot Offers" section created with ListView.builder (5 items).
-
-Localization (Bonus)
-
-Support for English and Arabic using .arb files.
-
-How to Run
-
-Clone the repository:
-
+```bash
+# Clone the repository
 git clone https://github.com/naeemnasser/Sprint-Microsoft.git
 cd Sprint-Microsoft
 
-
-Install dependencies:
-
+# Install dependencies
 flutter pub get
 
-
-Run the app:
-
+# Run the app
 flutter run
-
-Screenshots
-English version
-  welcome screen
-<img src="assets\images\screanshoten\welcomeScreen.png" width="300">
-  signup screen
-<img src="assets\images\screanshoten\signup.png" width="300">
-  sign in screen
-<img src="assets\images\screanshoten\signin.png" width="300">
-check validation for signup
-<img src="assets\images\screanshoten\signuperror.png" width="300">
-fill data in signup
-<img src="assets\images\screanshoten\signupUpWithData.png" width="300">
-mwssage when signed Up
-<img src="assets\images\screanshoten\signedUP.png" width="300">
-our product with gridview
-<img src="assets\images\screanshoten\OurProduct.png" width="300">
-product details page
-<img src="assets\images\screanshoten\productDetails.png" width="300">
-
-
-Screens Offers	Arabic Version
-  welcome screen
-  <img src="assets\images\screenshotar\ARwelcome.png" width="300">
-  signed in screen
-  <img src="assets\images\screenshotar\ARsignedin.png" width="300">
-  sign in screen
-  <img src="assets\images\screenshotar\ArsignIn.png" width="300">
-  signup screen
-  <img src="assets\images\screenshotar\ARsignup.png" width="300">
-  our product screen
-  <img src="assets\images\screenshotar\ARourproduct.png" width="300">
-	
-Project Structure
+📸 Screenshots
+🌐 English Version
+Welcome	Sign Up	Sign In
+<img src="assets/images/screanshoten/welcomeScreen.png" width="250">	<img src="assets/images/screanshoten/signup.png" width="250">	<img src="assets/images/screanshoten/signin.png" width="250">
+Validation	Sign Up Data	Success Message
+<img src="assets/images/screanshoten/signuperror.png" width="250">	<img src="assets/images/screanshoten/signupUpWithData.png" width="250">	<img src="assets/images/screanshoten/signedUP.png" width="250">
+Products Grid	Product Details
+<img src="assets/images/screanshoten/OurProduct.png" width="250">	<img src="assets/images/screanshoten/productDetails.png" width="250">
+🇪🇬 Arabic Version
+Welcome	Sign In	Sign Up
+<img src="assets/images/screenshotar/ARwelcome.png" width="250">	<img src="assets/images/screenshotar/ArsignIn.png" width="250">	<img src="assets/images/screenshotar/ARsignup.png" width="250">
+Signed In	Products
+<img src="assets/images/screenshotar/ARsignedin.png" width="250">	<img src="assets/images/screenshotar/ARourproduct.png" width="250">
+📂 Project Structure
 lib/
   main.dart
   screens/
@@ -140,7 +106,7 @@ lib/
     app_ar.arb
     app_localizations.dart (generated)
 
-Developer
+👨‍💻 Developer
 
 Name: Naeem Nasser
 GitHub: naeemnasser

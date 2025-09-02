@@ -75,24 +75,49 @@ flutter pub get
 
 # Run the app
 flutter run
+```
 
+## 📸 Screenshots
 
-| Welcome                                                              | Sign Up                                                       | Sign In                                                       |
-| -------------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- |
-| <img src="assets/images/screanshoten/welcomeScreen.png" width="250"> | <img src="assets/images/screanshoten/signup.png" width="250"> | <img src="assets/images/screanshoten/signin.png" width="250"> |
-| Validation                                                         | Sign Up Data                                                            | Success Message                                                 |
-| ------------------------------------------------------------------ | ----------------------------------------------------------------------- | --------------------------------------------------------------- |
-| <img src="assets/images/screanshoten/signuperror.png" width="250"> | <img src="assets/images/screanshoten/signupUpWithData.png" width="250"> | <img src="assets/images/screanshoten/signedUP.png" width="250"> |
+**Welcome Screen**  
+<img src="assets/images/screanshoten/welcomeScreen.png" width="250">
 
-| Products Grid                                                     | Product Details                                                       |
-| ----------------------------------------------------------------- | --------------------------------------------------------------------- |
-| <img src="assets/images/screanshoten/OurProduct.png" width="250"> | <img src="assets/images/screanshoten/productDetails.png" width="250"> |
-| Welcome                                                          | Sign In                                                         | Sign Up                                                         |
-| ---------------------------------------------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------- |
-| <img src="assets/images/screenshotar/ARwelcome.png" width="250"> | <img src="assets/images/screenshotar/ArsignIn.png" width="250"> | <img src="assets/images/screenshotar/ARsignup.png" width="250"> |
-| Signed In                                                         | Products                                                            |
-| ----------------------------------------------------------------- | ------------------------------------------------------------------- |
-| <img src="assets/images/screenshotar/ARsignedin.png" width="250"> | <img src="assets/images/screenshotar/ARourproduct.png" width="250"> |
+**Sign Up**  
+<img src="assets/images/screanshoten/signup.png" width="250">
+
+**Sign In**  
+<img src="assets/images/screanshoten/signin.png" width="250">
+
+**Validation Error**  
+<img src="assets/images/screanshoten/signuperror.png" width="250">
+
+**Sign Up With Data**  
+<img src="assets/images/screanshoten/signupUpWithData.png" width="250">
+
+**Success Message**  
+<img src="assets/images/screanshoten/signedUP.png" width="250">
+
+**Products Grid**  
+<img src="assets/images/screanshoten/OurProduct.png" width="250">
+
+**Product Details**  
+<img src="assets/images/screanshoten/productDetails.png" width="250">
+
+**Welcome (Arabic)**  
+<img src="assets/images/screenshotar/ARwelcome.png" width="250">
+
+**Sign In (Arabic)**  
+<img src="assets/images/screenshotar/ArsignIn.png" width="250">
+
+**Sign Up (Arabic)**  
+<img src="assets/images/screenshotar/ARsignup.png" width="250">
+
+**Signed In (Arabic)**  
+<img src="assets/images/screenshotar/ARsignedin.png" width="250">
+
+**Products (Arabic)**  
+<img src="assets/images/screenshotar/ARourproduct.png" width="250">
+
 
 Project Structure
 lib/
